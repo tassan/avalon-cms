@@ -1,0 +1,42 @@
+{
+  "name": "avalon-cms",
+  "version": "1.0.0",
+  "description": "Avalon CMS is a simple, lightweight, and flexible static blog generator that allows you to manage blog posts in Markdown with metadata.",
+  "main": "bin/avalon.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/avalon.js init",
+    "generate": "node bin/avalon.js generate",
+    "serve": "node bin/avalon.js serve"
+  },
+  "author": "Flávio Tassan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^4.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "bin": {
+    "avalon": "bin/avalon.js"
+  },
+  "keywords": [
+    "static-site-generator",
+    "blog",
+    "markdown",
+    "cms"
+  ],
+  "homepage": "https://github.com/tassan/avalon-cms",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tassan/avalon-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tassan/avalon-cms/issues"
+  }
+}
